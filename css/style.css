@@ -14,7 +14,8 @@
 }
 
 :root {
-  --white: hsl(0, 0%, 100%) --stone-100: hsl(30, 54%, 90%);
+  --white: hsl(0, 0%, 100%);
+  --stone-100: hsl(30, 54%, 90%);
   --stone-150: hsl(30, 18%, 87%);
   --stone-600: hsl(30, 10%, 34%);
   --stone-900: hsl(24, 5%, 18%);
@@ -58,7 +59,7 @@ h2 {
 }
 
 hr {
-  border: 1px var(--stone-150) solid;
+  border: 1px var(--stone-100) solid;
 }
 
 .sub-container {
@@ -95,7 +96,7 @@ table {
   border-collapse: collapse;
 }
 td {
-  border-bottom: 1px solid var(--stone-150);
+  border-bottom: 1px solid var(--stone-100);
   text-align: center;
   padding: 14px;
   font-size: 17px;
@@ -111,4 +112,28 @@ td {
   border: 0;
   font-weight: 700;
   color: var(--brown-800);
+}
+@media (min-width: 800px) {
+  body {
+    background-color: var(--rose-50);
+  }
+  main {
+    background-color: var(--white);
+    border-radius: 12px;
+    margin: 120px 0;
+  }
+
+  .card-container {
+    max-width: 700px;
+    border-radius: 12px;
+    padding-top: 0;
+  }
+  .img-c {
+    max-width: 700px;
+    padding: 1.9rem;
+    padding-bottom: 0;
+  }
+  .main-img {
+    border-radius: 12px;
+  }
 }
