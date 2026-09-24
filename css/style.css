@@ -58,3 +58,33 @@ h2 {
 hr {
   color: var(--stone-150);
 }
+
+.sub-container {
+  padding: 20px;
+  background-color: var(--rose-50);
+  border-radius: 12px;
+}
+
+.prep-time {
+  color: var(--rose-800);
+  font-size: 22px;
+  font-weight: 700;
+  margin-block-start: 0;
+}
+ul {
+  padding-inline-start: 20px;
+}
+ol {
+  padding-inline-start: 20px;
+}
+li {
+  padding-inline-start: 24px;
+  line-height: 1.6;
+  padding-block-end: 12px;
+}
+span {
+  font-weight: 800;
+}
+p {
+  line-height: 1.6;
+}
