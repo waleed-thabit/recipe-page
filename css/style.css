@@ -49,14 +49,16 @@ img {
 h1 {
   font-family: Young-serif, serif;
   color: var(--stone-900);
+  font-size: 36px;
 }
 h2 {
   color: var(--brown-800);
   font-family: Young-serif, serif;
+  font-size: 28px;
 }
 
 hr {
-  color: var(--stone-150);
+  border: 1px var(--stone-150) solid;
 }
 
 .sub-container {
@@ -87,4 +89,26 @@ span {
 }
 p {
   line-height: 1.6;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+td {
+  border-bottom: 1px solid var(--stone-150);
+  text-align: center;
+  padding: 14px;
+  font-size: 17px;
+}
+.bold-cells {
+  font-weight: 700;
+  color: var(--brown-800);
+}
+.fat-1 {
+  border: 0;
+}
+.fat-2 {
+  border: 0;
+  font-weight: 700;
+  color: var(--brown-800);
 }
